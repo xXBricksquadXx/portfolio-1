@@ -30,8 +30,7 @@ Coming Soon!
 
 ### Principal Consultant (part-time)
 
-**Stage 3 Talent**
-01.21 - Present
+**Stage 3 Talent** 01.21 - Present
 
 - Creation, maintenance, and delivery of JavaScript educational content
 - Maintain a depth of knowledge as a JavaScript Subject Matter Expert (SME)
@@ -42,8 +41,7 @@ Coming Soon!
 
 ### Adjunct Web Development Instructor (contract)
 
-**Southwestern Illinois College**
-01.18 - Present
+**Southwestern Illinois College** 01.18 - Present
 
 - Revamped the entire curriculum to make it more current with 'real world' web development trends and best practices
 - Co-sponsoring IT Club
@@ -51,8 +49,7 @@ Coming Soon!
 
 ### Lead Fullstack JavaScript Instructor (contract)
 
-**Claim Academy**
-04.20 - Present
+**Claim Academy** 04.20 - Present
 
 - Created a fullstack JavaScript curriculum to cover all aspects of creating modern MERN applications
 - Leading both online and in-person lectures, labs and mentoring sessions

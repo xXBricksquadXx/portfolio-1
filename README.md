@@ -38,7 +38,7 @@
 
 (04.2007 - 01.2013)
 
-- Lead, supervised and served as a member of an infantry unit of 10-20 persons.
+- Lead, supervised and served as a member of an infantry unit of 10-20 persons in OIF and OEF.
 - Employed individual weapons, machine guns, and anti armour weapons in offensive and defensive ground combat.
 - Leading as an infantry team leader, responsible for the wellness, fitness, morale and discipline of a 4 man team.
 - Primary instructor and advisor in the matters of tactics, personal management, and junior team member development.

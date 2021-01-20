@@ -1,71 +1,55 @@
-# Manav Misra
+# Colby Cardell
 
-**Fullstack JavaScript Developer**
+**Junior Javascript Developer**
 
-- manavm@visionwebsoft.com
-- 618.772.1796
+- Colby88cardell@gmail.com
+- 256.221.5473
 
-## Technical Skills
+## **Technical Skills**
 
-- JavaScript
+- Java
+- Javascript
+- Git
+- Kali Linux
 - TypeScript
 - React
-- Node/Express
+- Node
+- Express
 - MongoDB
 - Firebase
 - Auth0
 - REST
 - SQL
-- Git
 - Mocha
 - Jest
 - Netlify
 - Heroku
 
-## Fullstack MERN Projects
+## **Job Experience**
 
-Coming Soon!
+### Acclaimed Restoration
 
-## Job Experience
+(01.14 - Present)
+**Consultant, Contractor, Mediator**
 
-### Principal Consultant (part-time)
+- Purchased short sale homes, renovated, rented- flipped
 
-**Stage 3 Talent** 01.21 - Present
+### United States Army
 
-- Creation, maintenance, and delivery of JavaScript educational content
-- Maintain a depth of knowledge as a JavaScript Subject Matter Expert (SME)
-- Assisting the sales team in a sales engineering capacity
-- Work with clients to develop JavaScript learning experiences with measurable outcomes
-- Assist in delivery of educational content to clients in an instructor or instructor assistant role
-- Review course materials and recommend improvements
+(04.07 - 01.13)
 
-### Adjunct Web Development Instructor (contract)
+- Lead, supervised and served as a member or an infantry unit of 10-20 persons.
+- employing individual weapons, machine guns, and anti armour weapons in offensive and defensive ground combat.
+- As a Infantry team leader i was responsible for the wellness,fitness, morale and discipline of a four man team.
+- I was the primary instructor and advisor in the matters of tactics, personal management and junior development.
+- responsible for the accountability and maintenance of all assigned equipment worth in excess of $50,000.
 
-**Southwestern Illinois College** 01.18 - Present
+## **Education**
 
-- Revamped the entire curriculum to make it more current with 'real world' web development trends and best practices
-- Co-sponsoring IT Club
-- Advisory Board Member
+### (Network Administrator) - Miller Motte Technical College Clarksville
 
-### Lead Fullstack JavaScript Instructor (contract)
+01.13
 
-**Claim Academy** 04.20 - Present
+## (Full Stack Development) - Claim Academy
 
-- Created a fullstack JavaScript curriculum to cover all aspects of creating modern MERN applications
-- Leading both online and in-person lectures, labs and mentoring sessions
-
-## Education
-
-### A.A.S. (Web Development) - Southwestern Illinois College
-
-05.12
-
-- 4.0 GPA
-- Additional Certificates: _Graphic Design_, _Web Coding_ and _Java_
-
-### B.S. (Mech. Eng.)
-
-12.05
-
-- Deere Co. Research Fellow Scholarship Recipient
-- Student Worker at campus library
+01.21 - present

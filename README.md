@@ -40,7 +40,7 @@
 
 - Lead, supervised and served as a member or an infantry unit of 10-20 persons.
 - Employed individual weapons, machine guns, and anti armour weapons in offensive and defensive ground combat.
-- Leading as an Infantry team leader, responsible for the wellness,fitness, morale and discipline of a 4 man team.
+- Leading as an infantry team leader, responsible for the wellness,fitness, morale and discipline of a 4 man team.
 - Primary instructor and advisor in the matters of tactics, personal management, and junior development.
 - Responsible for the accountability and maintenance of all assigned equipment worth in excess of $50,000.
 
@@ -48,8 +48,8 @@
 
 ### (Network Administrator) - Miller Motte Technical College Clarksville
 
-01.20113
+01.2013
 
 ## (Full Stack Development) - Claim Academy
 
-01.20s21 - present
+01.2021 - Present

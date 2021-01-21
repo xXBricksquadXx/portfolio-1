@@ -13,64 +13,82 @@
     />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-
-    <!-- Add Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
       rel="stylesheet"
     />
 
     <link rel="stylesheet" href="style.css" />
 
-    <title>Colby Cardell</title>
+    <title>Colby Cardell Resume</title>
   </head>
+
   <!-- All visible content for the site goes inside body! -->
   <body>
     <!-- Generally, 'h1' should match our 'title page.' -->
 
-    <header>
-      <img src="assets/IMage/logo.png" alt="Colby Cardell headshot" class="rounded"
-       />
-      <h1>Colby Cardell</h1>
-      <h2>Junior Javascript Developer</h2>
-      <p>
-        <!--mailbox svg -->
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 20 20"
-          fill="currentColor"
+    <header class="card rounded">
+      <!-- TODO: Select the first 'div child' that inside of the header -->
+      <div>
+        <!-- Self-closing tag -->
+        <img
+          src="./assets/iMage/logo.png"
+          alt="Colby Cardell headshot"
+          class="rounded"
+        />
+        <h1>Colby Cardell</h1>
+        <h2>Junior JavaScript Developer</h2>
+      </div>
+
+      <div>
+        <a href="mailto:colby88cardell@gmail.com">
+          <!-- mailbox SVG -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+            />
+            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+          </svg>
+          <span>colby88cardell@gmail</span></a
         >
-          <path
-            d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
-          />
-          <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-        </svg>
+      </div>
 
-        <a href="Colby88cardell@gmail.com"><span>colby88cardell@gmail.com</span></a>
-      </p>
-
-      <p>
-        <!-- phone svg -->
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
+      <div>
+        <a href="tel:12562215473">
+          <!-- Phone SVG -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zm3 14a1 1 0 100-2 1 1 0 000 2z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <span>256.221.5473</span></a
         >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
-          />
-        </svg>
-        </svg>
+      </div>
 
-        <a href="tel:12562215473"> <span>256.221.5473</span></a>
-      </p>
-      <header class="card rounded">
+      <div>
+        <a
+          href="https://github.com/xXBricksquadXx"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img src="./assets/iMage/github.png" alt="GitHub logo"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/colby-cardell-aaaa26157/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img src="./assets/iMage/linkedin.png" alt="LinkedIn logo"
+        /></a>
+      </div>
     </header>
 
     <script src="./scripts.js" type="module"></script>

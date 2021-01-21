@@ -1,4 +1,6 @@
+/* Root is the top level selector in CSS. */
 :root {
+  /* CSS Custom Properties AKA CSS Variables */
   --margin-bottom-rhythm: 1.75rem;
 }
 
@@ -17,11 +19,6 @@ body {
 
   /* Establish the base font size for ems */
   font-size: 10px;
-}
-
-/* Select first div in header */
-header div:first-child {
-  margin-bottom: var(--margin-bottom-rhythm);
 }
 
 h1 {
@@ -53,7 +50,12 @@ img {
 }
 
 a img {
+  margin-right: 1rem;
   width: 2rem;
+}
+
+ul {
+  padding-left: 0;
 }
 
 svg {
@@ -77,13 +79,37 @@ a {
   text-decoration: none;
 }
 
+figure {
+  margin: 0;
+}
+
+figcaption {
+  margin-top: 0.25rem;
+  text-align: center;
+}
+
 /* Classes - reusable block of styles */
 .card {
   background: #fff;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
   padding: 1rem;
+}
+
+.inline-list {
+  display: inline-block;
+
+  /* Top-right-bottom-left */
+  margin: 0 0.5rem 0.25rem 0;
 }
 
 .rounded {
   /* Rounded corners */
   border-radius: 0.75rem;
+}
+
+.vertical-rhythm {
+  margin-bottom: var(--margin-bottom-rhythm);
 }

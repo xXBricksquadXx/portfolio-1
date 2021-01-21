@@ -25,212 +25,228 @@
 
   <!-- All visible content for the site goes inside body! -->
   <body>
-    <!-- Generally, 'h1' should match our 'title page.' -->
+    <div id="site-wrapper">
+      <!-- Generally, 'h1' should match our 'title page.' -->
 
-    <header class="card rounded">
-      <!-- TODO: Select the first 'div child' that inside of the header -->
-      <div>
-        <!-- Self-closing tag -->
-        <img
-          src="./assets/iMage/logo.png"
-          alt="Colby Cardell headshot"
-          class="rounded"
-        />
-        <h1>Colby Cardell</h1>
-        <h2>Junior JavaScript Developer</h2>
-      </div>
-
-      <div>
-        <a href="mailto:colby88cardell@gmail.com">
-          <!-- mailbox SVG -->
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path
-              d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
-            />
-            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-          </svg>
-          <span>colby88cardell@gmail</span></a
-        >
-      </div>
-
-      <div>
-        <a href="tel:12562215473">
-          <!-- Phone SVG -->
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-            fill="currentColor"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zm3 14a1 1 0 100-2 1 1 0 000 2z"
-              clip-rule="evenodd"
-            />
-          </svg>
-          <span>256.221.5473</span></a
-        >
-      </div>
-
-    </div>
-
-    <div>
-        <a
-          href="https://github.com/xXBricksquadXx"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><img src="./assets/iMage/github.png" alt="GitHub logo"
-        /></a>
-        <a
-          href="https://www.linkedin.com/in/colby-cardell-aaaa26157/"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><img src="./assets/iMage/linkedin.png" alt="LinkedIn logo"
-        /></a>
-      </div>
-    </header>
-
-    <main>
-      <section class="card rounded vertical-rhythm">
-        <h2>Technical Skills</h2>
-
-        <ul>
-          <li class="inline-list">JavaScript</li>
-          <li class="inline-list">TypeScript</li>
-          <li class="inline-list">React</li>
-          <li class="inline-list">Node/Express</li>
-        </ul>
-      </section>
-
-      <section class="card rounded">
-        <h2>Projects</h2>
-
-        <figure>
+      <header class="card rounded vertical-rhythm">
+        <!-- TODO: Select the first 'div child' that inside of the header -->
+        <div class="vertical-rhythm" <!-- self-closing tag -->
           <img
-          src="https://pbs.twimg.com/media/DDVu0ecXcAEPlZZ.jpg"
-          alt=""
-           />
-          <figcaption>Coming Soon!</figcaption>
-        </figure>
-      </section>
+            src="./assets/iMage/logo.png"
+            alt="Colby Cardell headshot"
+            class="rounded"
+          />
+          <h1>Colby Cardell</h1>
+          <h2>Junior JavaScript Developer</h2>
+        </div>
 
-      <section class="card rounded vertical-rhythm">
-        <h2>Job Experience</h2>
-        <section>
-          <h3><strong>Acclaimed Restoration</strong> - Contractor</h3>
-          <p>01.2014 - Present</p>
-          <ul class="flex flex--column">
-            <li class="flex">
-              <!-- Need to keep some content here to have some width/height -->
-              <p>&nbsp;</p>
+        <div class="vertical-rhythm">
+          <div>
+            <a href="mailto:colby88cardell@gmail.com">
+              <!-- mailbox SVG -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewbox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+                />
+                <path
+                  d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
+                />
+              </svg>
+              <span>colby88cardell@gmail</span></a
+            >
+          </div>
 
-              <p>Purchased short-sale homes, renovated, rented and flipped</p>
-            </li>
-          </ul>
-        </section>
+          <div>
+            <a href="tel:12562215473">
+              <!-- Phone SVG -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewbox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zm3 14a1 1 0 100-2 1 1 0 000 2z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span>256.221.5473</span></a
+            >
+          </div>
+        </div>
 
-        <section>
-          <h3>
-            <strong>United States Army</strong> - Infantry Squad Leader
-          </h3>
-          <p>04.2007- 01.2013</p>
-          <ul class="flex flex--column">
-            <li class="flex">
-              <!-- Need to keep some content here to have some width/height -->
-              <p>&nbsp;</p>
+        <div>
+          <a
+            href="https://github.com/xXBricksquadXx"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./assets/iMage/github.png" alt="GitHub logo" />
+          </a>
 
-              <p>
-                Lead, supervised and served as a member of an infantry unit of
-                10-20 personal
-              </p>
-            </li>
+          <a
+            href="https://www.linkedin.com/in/colby-cardell-aaaa26157/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="./assets/iMage/linkedin.png" alt="LinkedIn logo"
+          /></a>
+        </div>
+      </header>
 
-            <li class="flex">
-              <p>&nbsp;</p>
+      <div>
+        <main>
+          <section class="card rounded vertical-rhythm">
+            <h2>Technical Skills</h2>
 
-              <p>
-                Employed individual weapons, machine guns, and anti armour
-                weapons in offensive and defensive ground combat
-              </p>
-            </li>
+            <ul>
+              <li class="inline-list">JavaScript</li>
+              <li class="inline-list">TypeScript</li>
+              <li class="inline-list">React</li>
+              <li class="inline-list">Node/Express</li>
+            </ul>
+          </section>
 
-            <li class="flex">
-              <p>&nbsp;</p>
+          <section class="card rounded vertical-rhythm">
+            <h2>Projects</h2>
 
-              <p>
-                Leading as an infantry team leader, responsible for the
-                wellness, fitness, morale and discipline of a 4 man team
-              </p>
-            </li>
+            <figure>
+              <img
+                src="https://pbs.twimg.com/media/DDVu0ecXcAEPlZZ.jpg"
+                alt=""
+              />
+              <figcaption>Coming Soon!</figcaption>
+            </figure>
+          </section>
 
-            <li class="flex">
-              <p>&nbsp;</p>
+          <section class="card rounded vertical-rhythm">
+            <h2>Job Experience</h2>
+            <section>
+              <h3><strong>Acclaimed Restoration</strong> - Contractor</h3>
+              <p>01.2014 - Present</p>
+              <ul class="flex flex--column">
+                <li class="flex flex--align-center">
+                  <!-- Need to keep some content here to have some width/height -->
+                  <div class="right-spacing"></div>
 
-              <p>
-                Primary instructor and advisor in the matters of tactics,
-                personal management, and junior team member development
-              </p>
-            </li>
+                  <p>
+                    Purchased short-sale homes, renovated, rented and flipped
+                    houses
+                  </p>
+                </li>
+              </ul>
+            </section>
 
-            <li class="flex">
-              <p>&nbsp;</p>
+            <section>
+              <h3>
+                <strong>United States Army</strong> - Infantry Squad Leader
+              </h3>
+              <p>04.2007- 01.2013</p>
+              <ul class="flex flex--column">
+                <li class="flex flex--align-center">
+                  <!-- Need to keep some content here to have some width/height -->
+                  <div class="right-spacing"></div>
 
-              <p>
-                Responsible for the accountability and maintenance of all
-                assigned equipment worth in excess of $50,000.
-              </p>
-            </li>
-          </ul>
-        </section>
-      </section>
+                  <p>
+                    Lead, supervised and served as a member of an infantry unit
+                    of 10-20 personal
+                  </p>
+                </li>
 
-      <section class="card rounded">
-        <h2>Education</h2>
-        <section>
-          <h3>
-            <strong>A.A.S (Network Administrator)</strong> - Miller-Motte
-            Technology College
-          </h3>
+                <li class="flex flex--align-center">
+                  <div class="right-spacing"></div>
 
-          <p>Jan-2013</p>
-          <ul class="flex flex--column">
-            <li class="flex">
-              <!-- Need to keep some content here to have some width/height -->
-              <p>&nbsp;</p>
+                  <p>
+                    Employed individual weapons, machine guns, and anti armour
+                    weapons in offensive and defensive ground combat
+                  </p>
+                </li>
 
+                <li class="flex flex--align-center">
+                  <div class="right-spacing"></div>
 
-            </p>
-          </li>
-        </ul>
-      </section>
+                  <p>
+                    Leading as an infantry team leader, responsible for the
+                    wellness, fitness, morale and discipline of a 4 man team
+                  </p>
+                </li>
 
+                <li class="flex flex--align-center">
+                  <div class="right-spacing"></div>
 
+                  <p>
+                    Primary instructor and advisor in the matters of tactics,
+                    personal management, and junior team member development
+                  </p>
+                </li>
 
-        <section>
-          <h3><strong>Other Certifications</strong> - United States Army</h3>
-          <p>Jan-2010</p>
-          <ul class="flex flex--column">
-            <li class="flex">
-              <!-- Need to keep some content here to have some width/height -->
-              <p>&nbsp;</p>
+                <li class="flex flex--align-center">
+                  <div class="right-spacing"></div>
 
-              <p>ARMY COURSE: 081F31CLC, Combat Life Saver Course</p>
-            </li>
+                  <p>
+                    Responsible for the accountability and maintenance of all
+                    assigned equipment worth in excess of $50,000.
+                  </p>
+                </li>
+              </ul>
+            </section>
+          </section>
 
-            <li class="flex">
-              <p>&nbsp;</p>
+          <section class="card rounded">
+            <h2>Education</h2>
+            <section>
+              <h3>
+                <strong>AS (Network Administrator)</strong> - Miller-Motte
+                Technology College
+              </h3>
+              <p>Jan-2013</p>
 
-              <p>ARMY COURSE: 600-C44, Warrior Leader Course = (SIGMA6)</p>
-            </li>
-          </ul>
-        </section>
-      </section>
-    </main>
+              <ul class="flex flex--column">
+                <li class="flex flex--align-center">
+                  <!-- Need to keep some content here to have some width/height -->
+                </li>
+              </ul>
+            </section>
 
-    <footer></footer>
+            <section>
+              <h3>
+                <strong>Other Certifications</strong> - United States Army
+              </h3>
+              <p>Jan-2010</p>
+              <ul class="flex flex--column">
+                <li class="flex flex--align-center">
+                  <!-- Need to keep some content here to have some width/height -->
+                  <div class="right-spacing"></div>
+
+                  <p>ARMY COURSE: 081F31CLC, Combat Life Saver Course</p>
+                </li>
+
+                <li class="flex flex--align-center">
+                  <div class="right-spacing"></div>
+
+                  <p>ARMY COURSE: 600-C44, Warrior Leader Course = (SIGMA6)</p>
+                </li>
+              </ul>
+            </section>
+          </section>
+        </main>
+
+        <footer
+          class="flex flex--column flex--align-center flex--justify-center"
+        >
+          <div class="hr"></div>
+          <p class="text-center">
+            <strong>Colby Cardell</strong>&nbsp;&dash;
+            <a href="mailto:colby88cardell@gmail.com"
+              >colby88cardell@gmail.com</a
+            >
+          </p>
+        </footer>
+      </div>
+    </div>
 
     <script src="./scripts.js" type="module"></script>
   </body>

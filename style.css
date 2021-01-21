@@ -1,7 +1,7 @@
 /* Root is the top level selector in CSS. */
 :root {
   /* CSS Custom Properties AKA CSS Variables */
-  --margin-bottom-rhythm: 1.75rem;
+  --vertical-rhythm: 1.75rem;
 }
 
 body,
@@ -39,12 +39,15 @@ h2 {
 a,
 figcaption,
 li,
-li p:first-child::before,
-p:not(li p) {
+li div:first-child::before,
+p {
   font-size: 1.2em;
 }
 
-/* Responsive Image */
+li div:first-child::before {
+  content: "✅";
+}
+
 img {
   max-width: 100%;
 }
@@ -88,6 +91,10 @@ figcaption {
   text-align: center;
 }
 
+footer {
+  padding: var(--vertical-rhythm) 0;
+}
+
 /* Classes - reusable block of styles */
 .card {
   background: #6495ed;
@@ -98,6 +105,28 @@ figcaption {
   padding: 1rem;
 }
 
+/* Create a flexbox out of any parent div */
+.flex {
+  display: flex;
+}
+
+.flex--align-center {
+  align-items: center;
+}
+
+.flex--column {
+  flex-direction: column;
+}
+
+.flex--justify-center {
+  justify-content: center;
+}
+
+.hr {
+  border-top: solid thin #a9a9a9;
+  width: 40%;
+}
+
 .inline-list {
   display: inline-block;
 
@@ -105,12 +134,35 @@ figcaption {
   margin: 0 0.5rem 0.25rem 0;
 }
 
+.right-spacing {
+  margin-right: var(--margin-right-spacing);
+}
+
 .rounded {
   /* Rounded corners */
   border-radius: 0.75rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .vertical-rhythm {
-  margin-bottom: var(--margin-bottom-rhythm);
-  margin-top: var(--margin-bottom-rhythm);
+  margin-bottom: var(--vertical-rhythm);
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background: linear-gradient(to top, #06f 0%, #fff 62%);
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  #site-wrapper {
+    display: grid;
+    gap: 1rem;
+
+    /* 'fr' is fractional units - only works with grid. */
+    grid-template-columns: 40fr 60fr;
+  }
 }

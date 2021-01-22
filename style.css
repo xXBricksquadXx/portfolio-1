@@ -46,6 +46,7 @@ p {
 
 li div:first-child::before {
   content: "✅";
+  margin-right: 0.75em;
 }
 
 img {
